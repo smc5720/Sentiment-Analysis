@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">지금 나의 연애는</string>
+    <string name="emotion_love">감정분석결과 사랑을 하고 계신 것 같네요!\n\n그분과 함께 이런 노래 들어보는거 어떠세요?</string>
+    <string name="emotion_farewell">감정분석결과 이별을 겪고 계신 것 같네요</string>
+    <string name="emotion_farewell2">\n위로해줄 노래를 알고 있어요 들어볼래요?</string>
+    <string name="emotion_farewell3">\n그냥 펑펑 울고 싶다면 이런 노래는 어때요?</string>
+</resources>

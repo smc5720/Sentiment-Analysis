@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:gravity="center_horizontal"
+    tools:context="com.example.s3testapp.MainActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imageview1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이미지 선택"
+        android:id="@+id/selectBtn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="서버로 업로드"
+        android:id="@+id/uploadBtn"/>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_main_grad"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_question"
+        android:layout_width="330dp"
+        android:layout_height="200dp"
+        android:text="오늘 그 분과 \n무슨 일이 있었는지 말해보세요\n\n\n"
+        android:gravity="center"
+        android:background="@drawable/textbox"
+        android:textColor="@color/colorText"
+        android:textSize="24dp"
+        android:fontFamily="@font/bmjua"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <Button
+        android:id="@+id/btn_google_stt"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/bmjua"
+        android:background="@drawable/btn_speak"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.276" />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/bmjua"
+        android:text="  지난 노래 추천 기록"
+        android:textColor="@color/colorText"
+        android:gravity="center"
+        android:background="@drawable/textbox2"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/list_view_music_yet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <ListView
+        android:id="@+id/list_view_music_yet"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </ListView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

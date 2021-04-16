@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_main_grad"
+    tools:context=".MusicActivity">
+
+    <TextView
+        android:id="@+id/text_music_emotion"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorText"
+        android:fontFamily="@font/bmjua"
+        android:textSize="25dp"
+        android:text="TextView"
+        android:background="@drawable/textbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/music_linear_layout"/>
+
+    <LinearLayout
+        android:id="@+id/music_linear_layout"
+        android:layout_width="340dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_music_emotion"
+        app:layout_constraintBottom_toTopOf="@+id/music_linear_layout2"
+        android:background="@drawable/textbox">
+        <ImageView
+            android:id ="@+id/image_music_1"
+            android:layout_width="125dp"
+            android:layout_height="125dp"/>
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="125dp"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp">
+            <TextView
+                android:id="@+id/text_music_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/colorText"
+                android:text="MusicTitle"
+                android:fontFamily="@font/bmjua"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/music_linear_layout2"
+        android:layout_width="340dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/music_linear_layout"
+        app:layout_constraintBottom_toTopOf="@+id/space"
+        android:background="@drawable/textbox">
+        <ImageView
+            android:id="@+id/image_music_2"
+            android:layout_width="125dp"
+            android:layout_height="125dp"/>
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="125dp"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp">
+            <TextView
+                android:id="@+id/text_music_title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/colorText"
+                android:text="MusicTitle"
+                android:fontFamily="@font/bmjua"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/music_linear_layout2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

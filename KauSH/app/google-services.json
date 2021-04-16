@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "792639570814",
+    "firebase_url": "https://kauemotion.firebaseio.com",
+    "project_id": "kauemotion",
+    "storage_bucket": "kauemotion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792639570814:android:8f715ca692c8791f32e92f",
+        "android_client_info": {
+          "package_name": "com.example.kaush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792639570814-057in9gk3d23sd9h2jd5mhc46ldb6v3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjMXE_8vs8uZwoAerdxNV_9the0PGJazw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792639570814-057in9gk3d23sd9h2jd5mhc46ldb6v3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
